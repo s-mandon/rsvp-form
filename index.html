@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="resources/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+</html>
+<body>
+<div class="container">  
+    <form id="contact" action="" method="post">
+      <h1>R.S.V.P</h1>
+       <label for="Your name">NAME</label>
+        <input for="Your name" placeholder="" type="text" tabindex="1" required autofocus>
+        <div>
+            <input type="checkbox" id="accept" name="accept"
+                   checked>
+            <label for="accept">HAPPILY ACCEPT</label>
+          </div>
+          <div>
+            <input type="checkbox" id="decline" name="decline">
+            <label for="accept">SADLY DECLINE</label>
+          </div>
+          <p>IF YOUR INVITE WAS ADDRESSED TO MULTIPLE PEOPLE, <a href="#">ADD ANOTHER NAME</a></p>
+       <h2>Would you like a +1?</h2>
+       <p>We can't guarantee +1s, but let us know if you'd like one and we'll let you know once we've had all our RSVPs.</p>
+       <div>
+        <input type="checkbox" id="yes" name="yes"
+               checked>
+        <label for="accept">YES PLEASE</label>
+      </div>
+      <h2>Add a song to our playlist!</h2>
+      
+        <textarea placeholder="Or more than one if you can't decide!" tabindex="5" required></textarea>
+        <div class="bcontainer"><button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </div>
+    </form>
+  </div>
+</body>
+</html>
